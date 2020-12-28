@@ -4,7 +4,7 @@
 
 [[redirects]]
   from = "/*"
-  to = "/"
+  to = "/docs/"
   status = 200
 
 [[redirects]]
