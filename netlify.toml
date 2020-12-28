@@ -3,7 +3,7 @@
   publish = "build"
 
 [[redirects]]
-  from = "/*"
+  from = "/"
   to = "/docs/"
   status = 200
 
