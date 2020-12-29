@@ -1,8 +1,18 @@
 module.exports = {
-  someSidebar: {
-    Admin:  ['doc1', 'doc2', 'doc3'],
-    EndUser: ['doc1', 'doc2', 'doc3'],
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
-  },
+  someSidebar: getDocSideBar()
 };
+
+function getDocSideBar() {
+  const fs = require('fs');
+  let fsContent = fs.readFileSync('./sidebars/docsidebar.md', 'utf8');
+  if (fsContent) {
+    fsContent = fsContent.toString();
+    fsContent = fsContent.replace("```json", "")
+    fsContent = fsContent.replace("```", "")
+    return JSON.parse(fsContent);
+  }
+
+  return {
+
+  }
+}

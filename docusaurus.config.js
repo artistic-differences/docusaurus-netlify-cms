@@ -9,9 +9,9 @@ module.exports = {
   projectName: 'induct & train documentation', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'induct & train',
+      title: '',
       logo: {
-        alt: 'Keyzo Logo',
+        alt: 'induct & train Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -21,26 +21,16 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
+        {
+          to: 'https://www.keyzo.co.uk',
+          label: 'Keyzo',
+          position: 'right',
+        },
       ],
     },
     footer: {
       style: 'dark',
-      // links: [
-      //   {
-      //     title: 'Docs',
-      //     items: [
-      //       {
-      //         label: 'Style Guide',
-      //         to: 'docs/',
-      //       },
-      //       {
-      //         label: 'Second Doc',
-      //         to: 'docs/doc2/',
-      //       },
-      //     ],
-      //   },
-      // ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Keyzo IT solutions Ltd`,
     },
   },
   presets: [
