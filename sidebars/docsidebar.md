@@ -4,7 +4,7 @@
     "introduction"
   ],
   "AdminUser": [
-    "introduction"
+    "getting-started", "users", "create-user", "create-admin"
   ]
 }
 ```
