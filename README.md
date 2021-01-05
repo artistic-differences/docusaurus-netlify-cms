@@ -18,6 +18,12 @@ $ yarn start
 
 This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
 
+```
+$ npx netlify-cms-proxy-server
+```
+
+This command starts the local CMS proxy so that you can edit content locally
+
 ### Build
 
 ```
