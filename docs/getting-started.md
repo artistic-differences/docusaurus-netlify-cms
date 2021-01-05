@@ -14,19 +14,19 @@ The system will default to the normal end user login screen **yourcompany.**indu
 
 :::
 
-### Admin Dashboard
+## Admin Dashboard
 
 Once logged in you will be taken to the main dashboard, dependant on configuration this will either be a navigation list or the full main dashboard e.g:
 
-###### Navigation Dashboard
+### Navigation Dashboard
 
 ![Dashboard List](list-dashboard.jpg "Dashboard List")
 
-###### Full Admin Dashboard
+### Full Admin Dashboard
 
 ![Full Admin Dashboard](dashboard.jpg "Full Admin Dashboard")
 
-### Overview
+## Overview
 
 The system is composed a number of key elements 
 
