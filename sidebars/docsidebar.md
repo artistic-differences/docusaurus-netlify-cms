@@ -9,7 +9,7 @@
       "type": "category",
       "label": "User Management",
       "items": [
-        "user-management-introduction", "create-user", "create-admin"
+        "user-management-introduction", "create-user", "create-admin", "user-record"
       ]
     },
     {
