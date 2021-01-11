@@ -30,7 +30,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} Keyzo IT solutions Ltd`,
+      copyright: `Copyright © ${new Date().getFullYear()} Keyzo IT Solutions Ltd`,
     },
   },
   presets: [
