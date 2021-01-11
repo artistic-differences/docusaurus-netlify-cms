@@ -8,7 +8,7 @@ keywords: []
 ---
 This is the second stage in assigning questions and answers to modules.
 
-![](question-list.jpg)
+![Question List](question-list.jpg "Question List")
 
 This is the question listing screen and includes the familiar search bar and action column - with navigation to the manage answers. Notice also the Mandatory column which denotes any questions that are required to be asked.
 
@@ -16,7 +16,7 @@ This is the question listing screen and includes the familiar search bar and act
 
 Below is the question edit / creation screen.
 
-![](question-edit.jpg)
+![Question Edit](question-edit.jpg "Question Edit")
 
 This is composed of the following items.
 

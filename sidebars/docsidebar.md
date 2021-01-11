@@ -25,7 +25,8 @@
       "items": [
         "induction-management", "create-induction"
       ]
-    }
+    }, 
+    "admin-dashboard"
   ]
 }
 ```
